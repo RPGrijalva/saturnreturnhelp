@@ -1,0 +1,40 @@
+@media only screen and (max-width:479px) {
+    .vid-block {
+        border: 1px solid black;
+        overflow: hidden;
+    }
+
+    .vid-title {
+        padding: 0;
+        margin: 0;
+        font-weight: 800;
+        color: white;
+        background-color: #232A6A;
+    }
+
+    .lesson-content  {
+        position: absolute;
+        width: 100%;
+        top: -600px;
+    }
+
+    .lesson-content:focus-within {
+       top: 0px;
+    }
+
+    .container-2 {
+        height: 800px;
+    }
+
+    .slide-nav {
+        bottom: 12px;
+    }
+}
+
+.products-heading {
+    margin-bottom: 10px;
+}
+
+.w-slide {
+    overflow: clip;
+}
